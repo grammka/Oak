@@ -1,0 +1,68 @@
+html {
+
+}
+
+body {
+
+}
+
+.b-shadow-overlay {
+	display: none;
+	background: #000;
+	opacity: 0.82;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+}
+
+
+
+
+
+
+.b-baron__wrapper {
+
+}
+
+.b-baron__scrollable {
+
+}
+
+.b-baron__track {
+	width: 6px;
+	position: absolute;
+	top: 8px;
+	right: 5px;
+	bottom: 8px;
+}
+
+.b-baron__bar {
+	cursor: pointer;
+	width: 6px;
+	background: #000;
+	opacity: 0.4;
+	position: absolute;
+	right: 0;
+
+	@include border-radius(6px);
+}
+
+.b-body__scrollable {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+}
+
+
+
+
+
+

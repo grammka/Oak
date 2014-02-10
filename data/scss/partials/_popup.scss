@@ -1,0 +1,18 @@
+.b-popup {
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1010;
+
+	@include box-shadow(rgba(0,0,0, 0.23) 0 1px 2px);
+}
+
+.b-popup__title {
+	height: 24px;
+	line-height: 24px;
+	font-family: OpenSansLight;
+	color: $text_dark;
+	font-size: 20px;
+}

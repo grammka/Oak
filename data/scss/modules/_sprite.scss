@@ -1,0 +1,13 @@
+@mixin sprite {
+	display: block;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+}
+
+@mixin s-hints-circle {
+	@include sprite;
+
+	width: 100px;
+	height: 100px;
+	background-position: 0 0;
+}
