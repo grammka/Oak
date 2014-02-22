@@ -4,10 +4,10 @@
 	background-repeat: no-repeat;
 }
 
-@mixin s-hints-circle {
+@mixin s__track-play-btn {
 	@include sprite;
 
-	width: 100px;
-	height: 100px;
+	width: 24px;
+	height: 22px;
 	background-position: 0 0;
 }
